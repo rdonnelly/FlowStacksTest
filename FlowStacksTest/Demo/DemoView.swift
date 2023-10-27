@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  FlowStacksTest
 //
 //  Created by Ryan Donnelly on 10/27/23.
@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DemoView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "sun.dust")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Welcome to the demo!")
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    DemoView()
 }

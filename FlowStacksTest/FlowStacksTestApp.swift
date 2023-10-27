@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct FlowStacksTestApp: App {
+    @StateObject var appCoordinatorViewModel = AppCoordinatorViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppCoordinator(coordinatorViewModel: appCoordinatorViewModel)
         }
     }
 }

@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		954086892AEBED20001479AD /* FlowStacksTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954086882AEBED20001479AD /* FlowStacksTestApp.swift */; };
-		9540868B2AEBED20001479AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540868A2AEBED20001479AD /* ContentView.swift */; };
 		9540868D2AEBED22001479AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9540868C2AEBED22001479AD /* Assets.xcassets */; };
 		954086902AEBED22001479AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9540868F2AEBED22001479AD /* Preview Assets.xcassets */; };
+		954086982AEBED61001479AD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954086972AEBED61001479AD /* AppCoordinator.swift */; };
+		9540869B2AEBF0B1001479AD /* FlowStacks in Frameworks */ = {isa = PBXBuildFile; productRef = 9540869A2AEBF0B1001479AD /* FlowStacks */; };
+		954086A42AEBF2DB001479AD /* TabsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954086A32AEBF2DB001479AD /* TabsCoordinator.swift */; };
+		954086A72AEBF618001479AD /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954086A62AEBF618001479AD /* DemoView.swift */; };
+		954086A92AEBF755001479AD /* AppCoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954086A82AEBF755001479AD /* AppCoordinatorViewModel.swift */; };
+		954086AC2AEBF8B6001479AD /* StackCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954086AB2AEBF8B6001479AD /* StackCoordinator.swift */; };
+		954086AE2AEBF9A1001479AD /* StackCoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954086AD2AEBF9A1001479AD /* StackCoordinatorViewModel.swift */; };
+		954086B02AEBF9EF001479AD /* StackRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954086AF2AEBF9EF001479AD /* StackRootView.swift */; };
+		954086B22AEBFA06001479AD /* StackChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954086B12AEBFA06001479AD /* StackChildView.swift */; };
+		954086B42AEBFF71001479AD /* TabsCoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954086B32AEBFF71001479AD /* TabsCoordinatorViewModel.swift */; };
+		95E71D282AEC35B9004BCFD5 /* CoordinatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E71D272AEC35B9004BCFD5 /* CoordinatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		954086852AEBED20001479AD /* FlowStacksTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowStacksTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		954086882AEBED20001479AD /* FlowStacksTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowStacksTestApp.swift; sourceTree = "<group>"; };
-		9540868A2AEBED20001479AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9540868C2AEBED22001479AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9540868F2AEBED22001479AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		954086972AEBED61001479AD /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		954086A32AEBF2DB001479AD /* TabsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsCoordinator.swift; sourceTree = "<group>"; };
+		954086A62AEBF618001479AD /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		954086A82AEBF755001479AD /* AppCoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorViewModel.swift; sourceTree = "<group>"; };
+		954086AB2AEBF8B6001479AD /* StackCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCoordinator.swift; sourceTree = "<group>"; };
+		954086AD2AEBF9A1001479AD /* StackCoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCoordinatorViewModel.swift; sourceTree = "<group>"; };
+		954086AF2AEBF9EF001479AD /* StackRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackRootView.swift; sourceTree = "<group>"; };
+		954086B12AEBFA06001479AD /* StackChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackChildView.swift; sourceTree = "<group>"; };
+		954086B32AEBFF71001479AD /* TabsCoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsCoordinatorViewModel.swift; sourceTree = "<group>"; };
+		95E71D272AEC35B9004BCFD5 /* CoordinatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9540869B2AEBF0B1001479AD /* FlowStacks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +71,12 @@
 		954086872AEBED20001479AD /* FlowStacksTest */ = {
 			isa = PBXGroup;
 			children = (
+				954086962AEBED3A001479AD /* App */,
+				9540869E2AEBF293001479AD /* Tabs */,
+				954086A52AEBF603001479AD /* Demo */,
+				9540869D2AEBF286001479AD /* Stack */,
+				95E71D262AEC35A4004BCFD5 /* Common */,
 				954086882AEBED20001479AD /* FlowStacksTestApp.swift */,
-				9540868A2AEBED20001479AD /* ContentView.swift */,
 				9540868C2AEBED22001479AD /* Assets.xcassets */,
 				9540868E2AEBED22001479AD /* Preview Content */,
 			);
@@ -65,6 +89,51 @@
 				9540868F2AEBED22001479AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		954086962AEBED3A001479AD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				954086972AEBED61001479AD /* AppCoordinator.swift */,
+				954086A82AEBF755001479AD /* AppCoordinatorViewModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9540869D2AEBF286001479AD /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				954086AB2AEBF8B6001479AD /* StackCoordinator.swift */,
+				954086AD2AEBF9A1001479AD /* StackCoordinatorViewModel.swift */,
+				954086AF2AEBF9EF001479AD /* StackRootView.swift */,
+				954086B12AEBFA06001479AD /* StackChildView.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		9540869E2AEBF293001479AD /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				954086A32AEBF2DB001479AD /* TabsCoordinator.swift */,
+				954086B32AEBFF71001479AD /* TabsCoordinatorViewModel.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		954086A52AEBF603001479AD /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				954086A62AEBF618001479AD /* DemoView.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		95E71D262AEC35A4004BCFD5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				95E71D272AEC35B9004BCFD5 /* CoordinatorModel.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,9 @@
 			dependencies = (
 			);
 			name = FlowStacksTest;
+			packageProductDependencies = (
+				9540869A2AEBF0B1001479AD /* FlowStacks */,
+			);
 			productName = FlowStacksTest;
 			productReference = 954086852AEBED20001479AD /* FlowStacksTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +183,9 @@
 				Base,
 			);
 			mainGroup = 9540867C2AEBED20001479AD;
+			packageReferences = (
+				954086992AEBF0B1001479AD /* XCRemoteSwiftPackageReference "FlowStacks" */,
+			);
 			productRefGroup = 954086862AEBED20001479AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +212,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9540868B2AEBED20001479AD /* ContentView.swift in Sources */,
+				954086B02AEBF9EF001479AD /* StackRootView.swift in Sources */,
+				954086B42AEBFF71001479AD /* TabsCoordinatorViewModel.swift in Sources */,
+				954086A92AEBF755001479AD /* AppCoordinatorViewModel.swift in Sources */,
+				954086982AEBED61001479AD /* AppCoordinator.swift in Sources */,
+				95E71D282AEC35B9004BCFD5 /* CoordinatorModel.swift in Sources */,
+				954086AC2AEBF8B6001479AD /* StackCoordinator.swift in Sources */,
+				954086AE2AEBF9A1001479AD /* StackCoordinatorViewModel.swift in Sources */,
+				954086A42AEBF2DB001479AD /* TabsCoordinator.swift in Sources */,
+				954086B22AEBFA06001479AD /* StackChildView.swift in Sources */,
+				954086A72AEBF618001479AD /* DemoView.swift in Sources */,
 				954086892AEBED20001479AD /* FlowStacksTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,11 +358,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FlowStacksTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FlowStacksTest;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,6 +371,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rdonnelly.FlowStacksTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,11 +390,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FlowStacksTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FlowStacksTest;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +403,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rdonnelly.FlowStacksTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,6 +434,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		954086992AEBF0B1001479AD /* XCRemoteSwiftPackageReference "FlowStacks" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnpatrickmorgan/FlowStacks";
+			requirement = {
+				kind = exactVersion;
+				version = 0.3.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9540869A2AEBF0B1001479AD /* FlowStacks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 954086992AEBF0B1001479AD /* XCRemoteSwiftPackageReference "FlowStacks" */;
+			productName = FlowStacks;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9540867D2AEBED20001479AD /* Project object */;
 }
