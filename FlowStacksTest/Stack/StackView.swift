@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StackChildView: View {
+struct StackView: View {
     @ObservedObject var coordinatorViewModel: StackCoordinatorViewModel
     
     var stackCount: Int
@@ -25,6 +25,12 @@ struct StackChildView: View {
                 Button(action: coordinatorViewModel.goBackToRoot) {
                     Text("Go Back To Root")
                 }
+                Button(action: coordinatorViewModel.goRootAuth) {
+                    Text("Log In (App)")
+                }
+                Button(action: coordinatorViewModel.goAuth) {
+                    Text("Log In (Stack)")
+                }
             }
         }
         .navigationTitle("Child #\(stackCount)")
@@ -33,6 +39,7 @@ struct StackChildView: View {
 }
 
 #Preview {
-    let coordinatorViewModel = StackCoordinatorViewModel()
-    return StackChildView(coordinatorViewModel: coordinatorViewModel, stackCount: 5)
+    let appCoordinatorViewModel = AppCoordinatorViewModel()
+    let stackCoordinatorViewModel = StackCoordinatorViewModel(coordinatorViewModel: appCoordinatorViewModel)
+    return StackView(coordinatorViewModel: stackCoordinatorViewModel, stackCount: 5)
 }

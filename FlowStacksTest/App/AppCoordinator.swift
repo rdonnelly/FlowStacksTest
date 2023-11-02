@@ -14,14 +14,18 @@ struct AppCoordinator: View {
     var body: some View {
         Router($coordinatorViewModel.routes) { screen, _ in
             switch screen {
-            case .home:
-                TabsCoordinator(coordinatorViewModel: coordinatorViewModel)
+                case let .welcome(appCoordinatorViewModel):
+                    WelcomeView(coordinatorViewModel: appCoordinatorViewModel)
+                case let .home(homeCoordinatorViewModel):
+                    TabsCoordinator(coordinatorViewModel: homeCoordinatorViewModel)
+                case let .auth(authCoordinatorViewModel):
+                    AuthCoordinator(coordinatorViewModel: authCoordinatorViewModel)
             }
         }
     }
 }
 
 #Preview {
-    var coordinatorViewModel = AppCoordinatorViewModel()
+    let coordinatorViewModel = AppCoordinatorViewModel()
     return AppCoordinator(coordinatorViewModel: coordinatorViewModel)
 }

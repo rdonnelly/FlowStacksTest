@@ -17,16 +17,19 @@ enum Tab {
 
 final class TabsCoordinatorViewModel: CoordinatorModel<TabsCoordinatorViewModel.Screen> {
     enum Screen {
-        case appTabs(stackCoordinatorViewModel: StackCoordinatorViewModel)
+        case appTabs(StackCoordinatorViewModel)
     }
+
+    private let parentCoordinatorViewModel: AppCoordinatorViewModel
     
     @Published var selectedTab: Tab
 
-    init(selectedTab: Tab = .default) {
+    init(coordinatorViewModel: AppCoordinatorViewModel, selectedTab: Tab = .default) {
+        self.parentCoordinatorViewModel = coordinatorViewModel
         self.selectedTab = selectedTab
-        
+
         super.init()
-        
-        routes = [.root(.appTabs(stackCoordinatorViewModel: .init(coordinatorViewModel: self)))]
+
+        routes = [.root(.appTabs(.init(coordinatorViewModel: self.parentCoordinatorViewModel)))]
     }
 }
